@@ -143,6 +143,29 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GL</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alert Dialogue.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Colour Palette.h" />
+    <ClInclude Include="Colour.h" />
+    <ClInclude Include="Cover.h" />
+    <ClInclude Include="File Management.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="Open File Dialogue.h" />
+    <ClInclude Include="Pointer.h" />
+    <ClInclude Include="Save File Dialogue.h" />
+    <ClInclude Include="Toolbar.h" />
+    <ClInclude Include="Tool_Circ.h" />
+    <ClInclude Include="Tool_Fill.h" />
+    <ClInclude Include="Tool_Move.h" />
+    <ClInclude Include="Tool_Pen.h" />
+    <ClInclude Include="Tool_Rect.h" />
+    <ClInclude Include="Top Menu Bar Callbacks.h" />
+    <ClInclude Include="Top Menu Bar.h" />
+    <ClInclude Include="Yes No Dialogue.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
